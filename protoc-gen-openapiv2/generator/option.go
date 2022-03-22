@@ -24,6 +24,13 @@ func EnumsAsInts(b bool) Option {
 }
 
 // MergeFileName. target OpenAPI file name prefix after merge
+func AllowMerge(isAllow bool) Option {
+	return func(gen *Generator) {
+		gen.reg.SetAllowMerge(isAllow)
+	}
+}
+
+// MergeFileName. target OpenAPI file name prefix after merge
 func MergeFileName(name string) Option {
 	return func(gen *Generator) {
 		gen.reg.SetMergeFileName(name)

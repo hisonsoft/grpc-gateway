@@ -16,10 +16,10 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/go-kratos/grpc-gateway/v2/internal/casing"
-	"github.com/go-kratos/grpc-gateway/v2/internal/descriptor"
 	"github.com/golang/glog"
 	openapi_options "github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2/options"
+	"github.com/hisonsoft/grpc-gateway/v2/internal/casing"
+	"github.com/hisonsoft/grpc-gateway/v2/internal/descriptor"
 	"google.golang.org/genproto/googleapis/api/annotations"
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"

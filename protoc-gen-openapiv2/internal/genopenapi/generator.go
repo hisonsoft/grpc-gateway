@@ -9,11 +9,11 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/go-kratos/grpc-gateway/v2/internal/descriptor"
-	gen "github.com/go-kratos/grpc-gateway/v2/internal/generator"
 	"github.com/golang/glog"
 	anypb "github.com/golang/protobuf/ptypes/any"
 	openapi_options "github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2/options"
+	"github.com/hisonsoft/grpc-gateway/v2/internal/descriptor"
+	gen "github.com/hisonsoft/grpc-gateway/v2/internal/generator"
 	statuspb "google.golang.org/genproto/googleapis/rpc/status"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/descriptorpb"

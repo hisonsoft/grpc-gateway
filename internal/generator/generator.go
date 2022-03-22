@@ -2,7 +2,7 @@
 package generator
 
 import (
-	"github.com/go-kratos/grpc-gateway/v2/internal/descriptor"
+	"github.com/hisonsoft/grpc-gateway/v2/internal/descriptor"
 )
 
 // Generator is an abstraction of code generators.

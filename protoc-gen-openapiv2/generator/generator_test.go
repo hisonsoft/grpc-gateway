@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/go-kratos/grpc-gateway/v2/internal/codegenerator"
+	"github.com/hisonsoft/grpc-gateway/v2/internal/codegenerator"
 )
 
 func Test_Gen(t *testing.T) {

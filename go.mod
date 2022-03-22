@@ -1,4 +1,4 @@
-module github.com/go-kratos/grpc-gateway/v2
+module github.com/hisonsoft/grpc-gateway/v2
 
 go 1.14
 

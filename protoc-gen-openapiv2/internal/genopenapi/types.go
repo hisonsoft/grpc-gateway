@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/go-kratos/grpc-gateway/v2/internal/descriptor"
+	"github.com/hisonsoft/grpc-gateway/v2/internal/descriptor"
 )
 
 type param struct {
